@@ -1,0 +1,50 @@
+<!--
+    TABELA COMPLEXA
+
+    EX.: 2 LOJAS
+        Para cada loja quantos produtos foram produzidos, quantos foram vendidos e agrupados
+        por cada loja
+-->
+
+<table>
+    <colgroup>
+        <col>
+        <col spna=2 style="background-color: red;">
+        <col span=2 style="background-color: blue;">
+    </colgroup>
+
+
+    <Caption>Produzidos x Vendidos</Caption>
+    <thead>
+        <tr>
+            <th rowspan="2">-----------------</th> <!--rowspan="" determina o número a ser ocupado -->   
+            <th colspan="2"> Loja Afosno Pena</th> <!--colspan="" determina o número colunas a ser ocupado --> 
+            <th colspan="2">Loja Antônia Pereira</th> 
+        </tr>
+
+        <tr>
+            <th>Produzidos</th>    
+            <th>Vendidos</th>  
+            <th>Produzidos</th>    
+            <th>Vendidos</th> 
+        </tr> 
+    </thead>
+    <tbody>
+        <tr>
+            <th>Vassouras</th>    
+            <th>25</th>  
+            <th>30</th>    
+            <th>10</th> 
+            <th>22</th> 
+        </tr> 
+        <tr>
+            <th>Baldes</th>    
+            <th>10</th>  
+            <th>15</th>    
+            <th>23</th> 
+            <th>40</th> 
+        </tr> 
+
+
+    </tbody>
+</table>
